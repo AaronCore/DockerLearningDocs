@@ -1,4 +1,4 @@
-### docker run/create options说明
+### docker run、create options说明
 
 
 选项 | 说明
@@ -25,8 +25,8 @@
 --rm=true或false | 容器退出后是否自动删除，不能跟 -d 同时使用
 -t，--tty=true或false | 是否分配一个伪终端，默认为 false
 --tmpfs=[] | 挂载临时文件系统到容器
--vi volume[=[[HOST D 工 R:] CONTAINER-DIR [:OPTIONS]]] | 挂载主机上的文件卷到容器内
---volume-driver=="" | 挂载文件卷的驱动类型
+-v或--volume[=[[HOST DIR:] CONTAINER-DIR [:OPTIONS]]] | 挂载主机上的文件卷到容器内
+--volume-driver="" | 挂载文件卷的驱动类型
 --volumes-from=[] | 从其他容器挂载卷
 -w, --workdir="" | 容器内的默认工作目录
 --add-host=[] | 在容器内添加一个主机名到 IP 地址的映射关系（通过／etc/hosts 文件）
