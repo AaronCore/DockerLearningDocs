@@ -11,13 +11,13 @@ services:
           cpus: "0.1"
           memory: 50M
     ports:
-      - "80:80"
+      - "6060:5000"
     networks:
       - webnet
   visualizer:
     image: dockersamples/visualizer:stable
     ports:
-      - "8080:8080"
+      - "6070:8080"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     deploy:
