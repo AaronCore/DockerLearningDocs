@@ -1,1 +1,0 @@
-![docker](https://gitee.com/50/PictureWarehouses/raw/master/img/20200701142034.png)
